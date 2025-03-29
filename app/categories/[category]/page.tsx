@@ -4,13 +4,14 @@ import DownloadButton from '../../components/DownloadButton';
 import { getBooksByCategory } from '@/app/data/books';
 import BookCard from '@/app/components/BookCard';
 
-interface CategoryPageProps {
+type Props = {
   params: {
     category: string;
   };
-}
+  searchParams: { [key: string]: string | string[] | undefined };
+};
 
-export default function CategoryPage({ params }: CategoryPageProps) {
+export default function CategoryPage({ params }: Props) {
   const categoryName = decodeURIComponent(params.category).split('-').map((word)=>word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
   const categoryBooks = getBooksByCategory(categoryName);
 

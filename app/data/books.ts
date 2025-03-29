@@ -28,7 +28,7 @@ export const books: Book[] = [
     id: 2,
     title: "AS/NZS 5139:2019",
     author: "Joint Technical Committee EL-042, Standards Australia & Standards New Zealand",
-    filename: "Joint Technical Committee EL-042, Standards Australia - AS_NZS 5139_2019 - Electrical installations — Safety of battery systems for use with power conversion equipment (2019, Standards Australia, Standards New Zealand) - libgen.li.pdf",
+    filename: "Joint Technical Committee EL-042, Standards Australia - AS_NZS 5139_2019 - Electrical installations — Saf...of battery systems for use with power conversion equipment (2019, Standards Australia, Standards New Zealand) - libgen.li.pdf",
     cover: "/books/covers/battery-systems.jpg",
     category: "Electrical",
     addedDate: "2025-03-22",
